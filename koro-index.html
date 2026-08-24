@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090a08">
+<meta name="description" content="KORO ($KORO) — No Stress. Just Koro.">
+<title>KORO — $KORO</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#090a08;color:#f7f8f3;font:16px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:#090a08eF;border-bottom:1px solid #252a20;backdrop-filter:blur(8px)}
+.nav{height:62px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:1000;font-size:1.2rem;letter-spacing:-.04em}.brand span{color:#ff8b22}
+.links{display:flex;gap:22px;color:#aeb3a9;font-weight:750;font-size:.9rem}.links a:hover{color:#ff8b22}
+.hero{min-height:calc(100vh - 62px);display:grid;place-items:center;text-align:center;padding:55px 0 75px;background:radial-gradient(circle at 50% 5%,#3a1d0a 0,transparent 38%)}
+.badge{display:inline-block;border:1px solid #5b3418;background:#17120d;color:#ff9b3d;padding:7px 12px;border-radius:999px;font-size:.77rem;font-weight:950}
+h1{font-size:clamp(5rem,19vw,9rem);line-height:.8;letter-spacing:-.09em;margin:23px 0 12px}h1 span{color:#ff8b22}.tag{font-size:clamp(1.15rem,4vw,1.65rem);font-weight:950}
+.hero p{max-width:650px;margin:12px auto;color:#aeb3a9}.buttons{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:25px}
+.btn{padding:12px 19px;border-radius:12px;border:1px solid #34392d;background:#151812;font-weight:950}.primary{background:#ff8b22;color:#100b06;border-color:#ff8b22}.btn:hover{transform:translateY(-2px)}
+.monkey{width:220px;height:205px;background:linear-gradient(#b86a2b,#81451e);border-radius:48% 48% 44% 44%;margin:40px auto 0;position:relative;box-shadow:0 22px 55px #0009}
+.ear{position:absolute;top:48px;width:62px;height:62px;border-radius:50%;background:#9c5725;border:12px solid #613515}.l{left:-27px}.r{right:-27px}
+.face{position:absolute;left:22px;right:22px;top:35px;height:130px;background:#d98a42;border-radius:50%}
+.eye{position:absolute;top:55px;width:25px;height:30px;background:#111;border-radius:50%}.eye:after{content:"";position:absolute;background:white;width:6px;height:7px;border-radius:50%;top:5px;left:5px}.e1{left:55px}.e2{right:55px}
+.muzzle{position:absolute;left:50%;top:88px;transform:translateX(-50%);width:90px;height:55px;background:#f2b36b;border-radius:50%}.nose{position:absolute;left:50%;top:96px;transform:translateX(-50%);width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:12px solid #22130a}.smile{position:absolute;left:50%;top:108px;transform:translateX(-50%);width:40px;height:20px;border-bottom:4px solid #22130a;border-radius:50%}.banana{position:absolute;right:-38px;bottom:0;font-size:48px;transform:rotate(25deg)}
+section{padding:75px 0}.title{font-size:clamp(2.1rem,7vw,3.4rem);line-height:1;letter-spacing:-.055em;margin:0 0 13px}.lead{max-width:720px;color:#aeb3a9;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.card{background:#11130f;border:1px solid #252a20;border-radius:18px;padding:22px}.card .icon{font-size:2rem}.card h3{color:#ff8b22;margin:7px 0}.card p{color:#9ca398;margin:0}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;max-width:780px}.stat{background:#11130f;border:1px solid #252a20;border-radius:15px;padding:18px}.stat small{display:block;color:#838a80}.stat strong{font-size:1.08rem}
+.road{display:grid;gap:11px;max-width:850px}.phase{background:#11130f;border:1px solid #252a20;border-radius:16px;padding:19px}.phase b{color:#ff9b3d}.phase h3{margin:4px 0}.phase p{color:#9ca398;margin:0}
+.note{margin-top:18px;padding:14px;border:1px dashed #5b3418;border-radius:13px;color:#9ca398;font-size:.9rem}
+footer{padding:30px 0;border-top:1px solid #252a20;color:#7f877b}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.toast{position:fixed;left:50%;bottom:18px;transform:translate(-50%,20px);opacity:0;background:#f7f8f3;color:#090a08;padding:11px 15px;border-radius:10px;font-weight:850;transition:.2s;z-index:20;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:700px){.links{display:none}.grid,.stats{grid-template-columns:1fr}.hero{padding-top:48px}.monkey{width:190px;height:180px}.face{top:31px;height:115px}.eye{top:49px}.muzzle{top:78px}.nose{top:87px}.smile{top:99px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#home">KORO<span>●</span></a><div class="links"><a href="#about">About</a><a href="#tokenomics">Tokenomics</a><a href="#roadmap">Roadmap</a><a href="#community">Community</a></div></div></nav>
+
+<main id="home">
+<section class="hero"><div class="wrap">
+<span class="badge">SOLANA MEMECOIN • $KORO</span>
+<h1>KORO<br><span>🐒</span></h1>
+<div class="tag">NO STRESS. JUST KORO.</div>
+<p>The most unserious monkey on Solana. Born from internet chaos, powered by memes, and built around community.</p>
+<div class="buttons"><a class="btn primary" href="#community">JOIN KORO</a><a class="btn" href="#" onclick="soon(event,'GMGN')">VIEW ON GMGN</a></div>
+<div class="monkey"><i class="ear l"></i><i class="ear r"></i><div class="face"><i class="eye e1"></i><i class="eye e2"></i><i class="muzzle"></i><i class="nose"></i><i class="smile"></i></div><div class="banana">🍌</div></div>
+</div></section>
+
+<section id="about"><div class="wrap">
+<h2 class="title">Meet Koro.</h2>
+<p class="lead">Koro doesn't care about being serious. Koro wants memes, laughs and a community that knows how to enjoy the ride.</p>
+<div class="grid">
+<div class="card"><div class="icon">🐒</div><h3>Pure Chaos</h3><p>A playful meme identity made for the internet.</p></div>
+<div class="card"><div class="icon">🍌</div><h3>Banana Powered</h3><p>No complicated mythology. Just one legendary monkey.</p></div>
+<div class="card"><div class="icon">🌍</div><h3>Community Driven</h3><p>The community creates the memes and the culture.</p></div>
+</div></div></section>
+
+<section id="tokenomics"><div class="wrap">
+<h2 class="title">Tokenomics</h2><p class="lead">Simple, transparent and easy to understand. Replace TBA values only after the real token is deployed.</p>
+<div class="stats">
+<div class="stat"><small>Total Supply</small><strong>1,000,000,000 $KORO</strong></div>
+<div class="stat"><small>Network</small><strong>Solana</strong></div>
+<div class="stat"><small>Buy/Sell Tax</small><strong>0%</strong></div>
+<div class="stat"><small>Contract Address</small><strong>TBA</strong></div>
+</div>
+<div class="note">⚠️ The contract address is TBA. Never publish a fake address or pretend the token has launched before it actually has.</div>
+</div></section>
+
+<section id="roadmap"><div class="wrap">
+<h2 class="title">The Koro Plan</h2>
+<div class="road">
+<div class="phase"><b>PHASE 01 — ESCAPE 🐒</b><h3>Koro gets online.</h3><p>Website • Community • Token launch • Initial visibility on trading trackers</p></div>
+<div class="phase"><b>PHASE 02 — CHAOS 🔥</b><h3>Koro goes viral.</h3><p>Memes • X growth • Community campaigns • Creator collaborations</p></div>
+<div class="phase"><b>PHASE 03 — TAKEOVER 🚀</b><h3>Koro meets the world.</h3><p>Partnerships • Community events • Global meme campaign</p></div>
+</div></div></section>
+
+<section id="community"><div class="wrap">
+<h2 class="title">Join the troop.</h2><p class="lead">Official links will be added after the accounts and token are created.</p>
+<div class="buttons" style="justify-content:flex-start"><a class="btn primary" href="#" onclick="soon(event,'BUY $KORO')">BUY $KORO</a><a class="btn" href="#" onclick="soon(event,'X / Twitter')">𝕏 X / TWITTER</a><a class="btn" href="#" onclick="soon(event,'Telegram')">TELEGRAM</a><a class="btn" href="#" onclick="soon(event,'GMGN')">GMGN</a></div>
+<div class="note">⚠️ $KORO is a memecoin and does not guarantee profit or financial return. Do your own research and only use money you can afford to lose.</div>
+</div></section>
+</main>
+
+<footer><div class="wrap foot"><b>KORO — $KORO</b><span>© 2026 Koro. Made for the memes.</span></div></footer>
+<div class="toast" id="toast"></div>
+<script>function soon(e,n){e.preventDefault();const t=document.getElementById('toast');t.textContent=n+' link will be added after launch.';t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1900)}</script>
+</body></html>
